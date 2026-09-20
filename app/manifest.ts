@@ -1,0 +1,2 @@
+import type { MetadataRoute } from "next";
+export default function manifest():MetadataRoute.Manifest{return {name:"Sankosh Personal Finance",short_name:"Sankosh",description:"Bills, budgets, shared money and investing—together.",start_url:"/",display:"standalone",background_color:"#09090d",theme_color:"#09090d",orientation:"portrait",icons:[{src:"/favicon.svg",sizes:"any",type:"image/svg+xml",purpose:"any"}]}}
